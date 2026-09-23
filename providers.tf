@@ -5,6 +5,7 @@ terraform {
       version = "~> 2.0"
     }
 }
+}
 
 provider "linode" {
   token = var.linode_token
